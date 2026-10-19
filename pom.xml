@@ -1,16 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>co.edu.unbosque</groupId>
-  <artifactId>aplicacionelevador</artifactId>
+  <artifactId>recursividad</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>Simulador de Elevador</name>
-  <description>Simulador de ascensor que permite moverse entre pisos, manteniendolo en un numero de planta definido.</description>
+  <name>Ejercicios de Recursividad</name>
+  <description>Ejercicios de recursividad aplicados a un CRUD sobre un arreglo de tamano fijo.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,13 +23,13 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
+        <artifactId>recursividad</artifactId>
         <version>3.13.0</version>
       </plugin>
 
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
+        <artifactId>recursividad</artifactId>
         <version>3.2.0</version>
         <configuration>
           <mainClass>${exec.mainClass}</mainClass>
